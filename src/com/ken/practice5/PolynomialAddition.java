@@ -10,19 +10,19 @@ public class PolynomialAddition {
 		int[] polynomialA = new int[101];
 		int n;
 		int number;
-		int count = 0;
+//		int count = 0;
 		do {
 			n = scanner.nextInt();
 			number = scanner.nextInt();
 			polynomialA[n] = number;
-			count ++;
+//			count ++;
 		}while(n != 0);
 
 		do {
 			n = scanner.nextInt();
 			number = scanner.nextInt();
 			if(polynomialA[n] == 0 && number != 0) {
-				count ++;
+//				count ++;
 			}
 			polynomialA[n] = number + polynomialA[n];
 		}while(n != 0);
